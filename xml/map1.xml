@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+<wall><x>250</x><y>268</y><r>0</r></wall>
+<wall><x>500</x><y>298</y><r>90</r></wall>
+<wall><x>500</x><y>1440</y><r>0</r></wall>
+<wall><x>500</x><y>1834</y><r>90</r></wall>
+<wall><x>250</x><y>2084</y><r>0</r></wall>
+<wall><x>1185</x><y>298</y><r>90</r></wall>
+<wall><x>1185</x><y>1834</y><r>90</r></wall>
+
+<wall><x>1900</x><y>268</y><r>0</r></wall>
+<wall><x>1930</x><y>298</y><r>90</r></wall>
+<wall><x>1658</x><y>872</y><r>0</r></wall>
+<wall><x>1930</x><y>1834</y><r>90</r></wall>
+<wall><x>1900</x><y>2084</y><r>0</r></wall>
+
+<bonus id="0"><x>756</x><y>268</y></bonus>
+<bonus id="1"><x>200</x><y>457</y></bonus>
+<bonus id="2"><x>822</x><y>813</y></bonus>
+<bonus id="3"><x>824</x><y>1512</y></bonus>
+<bonus id="4"><x>200</x><y>1834</y></bonus>
+<bonus id="5"><x>756</x><y>2016</y></bonus>
+
+<bonus id="6"><x>1537</x><y>268</y></bonus>
+<bonus id="7"><x>2090</x><y>457</y></bonus>
+<bonus id="8"><x>1506</x><y>813</y></bonus>
+<bonus id="9"><x>1508</x><y>1512</y></bonus>
+<bonus id="10"><x>2090</x><y>1834</y></bonus>
+<bonus id="11"><x>1537</x><y>2016</y></bonus>
+
+<hero id="0"><x>50</x><y>300</y></hero>
+<hero id="1"><x>300</x><y>50</y></hero>
+<hero id="2"><x>300</x><y>600</y></hero>
+<hero id="3"><x>650</x><y>300</y></hero>
+
+<enemy id="0"><x>850</x><y>1100</y></enemy>
+<enemy id="1"><x>1100</x><y>850</y></enemy>
+<enemy id="2"><x>1100</x><y>1400</y></enemy>
+<enemy id="3"><x>1450</x><y>1100</y></enemy>
+</map>
