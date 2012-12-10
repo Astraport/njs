@@ -10,7 +10,7 @@ var onAccept = function(socket) {
     var messageStr = "hello!";
     var data = new Buffer(messageStr.length);
     data.write(messageStr);
-
+	console.log(messageStr);
     var message = new SocketMessage(1, new Buffer("hello!"));
     connection.send(message);
 
