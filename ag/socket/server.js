@@ -19,3 +19,19 @@ var onAccept = function(socket) {
 // создаем сервер, принимающий коннекты через onAccept
 var server = net.createServer(onAccept);
 server.listen(80);
+
+var onAccept2 = function(socket2) {
+
+    var connection2 = new SocketConnection(socket2);
+
+    var messageStr2 = "<?xml version="1.0"?><cross-domain-policy><allow-access-from domain="*" to-ports="*"/></cross-domain-policy>";
+    var data2 = new Buffer(messageStr2.length);
+    data2.write(messageStr2);
+    var message2 = new SocketMessage(0, new Buffer(messageStr2));
+    connection2.send(message2);
+
+};
+
+// создаем сервер, принимающий коннекты через onAccept
+var server2 = net.createServer(onAccept2);
+server2.listen(834);
