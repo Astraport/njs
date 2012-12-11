@@ -73,9 +73,9 @@ clients.usernames = function(client) {
 var userpositions = [{p:0, x:850, y:1100},{p:1, x:110, y:850},{p:2, x:1100, y:1400},{p:3, x:1450, y:1100}];
 		
 socket.sockets.on('connection', function(client) {
-	
+	console.log("connection");
   client.on('message', function(data) {
-	  
+	  console.log("message");
 	  var res = JSON.parse(data);
 	  if (res.TYPE == "getuserlist") {
 		  var len = clients.length;
